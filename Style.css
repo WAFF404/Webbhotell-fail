@@ -1,0 +1,110 @@
+body {
+    background-color: #2b0057; 
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo-box {
+    background-color: #0d0d0f; 
+    width: 200px; 
+    height: 100px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border-right: 5px solid black;
+    flex-shrink: 0; 
+}
+
+
+.logo-box img {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    
+}
+
+
+.theater {
+    display: flex; 
+}
+
+.wings {
+    background-color: #000; 
+    width: 200px; 
+    display: flex;
+    flex-direction: column;
+    border-right: 5px solid black;
+}
+
+.background {
+    background-color: #ccc; 
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    height: 700px;;
+}
+
+.top_buttons {
+    height: 60px;
+    display: flex;
+    background-color: #000;
+}
+
+.info {
+    padding: 30px;
+    text-align: center;
+    color: #000; 
+}
+
+.lorem-box {
+    background-color: #9494e0; 
+    color: #fff; 
+    padding: 25px;
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+
+.buttons {
+    background-color: #b3b3e6; 
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border: 2px solid #000;
+    
+}
+
+
+.footer {
+    background-color: #000; 
+    color: #fff;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.hitta_background {
+    background-color: #ccc; 
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+    width: 100%;;
+}
+
+    
+    
